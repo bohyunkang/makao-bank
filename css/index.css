@@ -40,6 +40,10 @@ main section .navigation-buttons a {
 	color: #ffffff;
 }
 
+main section .navigation-buttons a:hover {
+	background-color: #dddddd;
+}
+
 main .background {
 	position: absolute;
 	top: 50%;
