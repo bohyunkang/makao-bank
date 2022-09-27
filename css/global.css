@@ -1,3 +1,8 @@
+* {
+	font-size: 16px;
+}
+
+/* header 영역 */
 header {
 	height: 4em;
 	background-color: #0c5a4c;
@@ -43,4 +48,17 @@ header ul li a {
 	font-weight: 300;
 	font-size: 0.9em;
 	color: #ffffff;
+}
+
+/* main 페이지 백그라운드 깔리는 영역 */
+main {
+	position: relative;
+
+	width: 100vw;
+	height: calc(100vh - 4em);
+	min-width: 1024px;
+
+	background: url('../images/wave.svg') no-repeat 0 50%;
+	background-color: #0f7562;
+	background-size: cover;
 }
