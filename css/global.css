@@ -62,3 +62,28 @@ main {
 	background-color: #0f7562;
 	background-size: cover;
 }
+
+/* 상세 페이지 백그라운드 깔리는 영역 */
+main .background-left {
+	position: absolute;
+	top: 34%;
+	left: 15%;
+
+	width: 28vh;
+	height: 59vh;
+
+	background: url('../images/man.png') no-repeat 0 50%;
+	background-size: contain;
+}
+
+main .background-right {
+	position: absolute;
+	top: 34%;
+	right: 5%;
+
+	width: 44vh;
+	height: 60vh;
+
+	background: url('../images/woman.png') no-repeat 0 50%;
+	background-size: contain;
+}

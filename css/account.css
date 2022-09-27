@@ -33,27 +33,3 @@ main section article p {
 	font-size: 1.1em;
 	line-height: 1.9em;
 }
-
-main .background-left {
-	position: absolute;
-	top: 34%;
-	left: 15%;
-
-	width: 28vh;
-	height: 59vh;
-
-	background: url('../images/man.png') no-repeat 0 50%;
-	background-size: contain;
-}
-
-main .background-right {
-	position: absolute;
-	top: 34%;
-	right: 5%;
-
-	width: 44vh;
-	height: 60vh;
-
-	background: url('../images/woman.png') no-repeat 0 50%;
-	background-size: contain;
-}
