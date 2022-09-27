@@ -1,0 +1,70 @@
+main section {
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+}
+
+main section article {
+	width: 27%;
+	height: 90%;
+	min-width: 400px;
+
+	padding: 3em;
+
+	border-radius: 0.5em;
+
+	background-color: #ffffff;
+
+	z-index: 1;
+}
+
+main section article h2 {
+	font-size: 2em;
+	font-weight: bold;
+
+	margin-bottom: 0.5em;
+}
+
+main section article p {
+	font-size: 1.1em;
+	line-height: 1.9em;
+}
+
+main section article form > * {
+	display: block;
+}
+
+main section article form label {
+	font-size: 1.1em;
+
+	margin-top: 1em;
+}
+
+main section article form input {
+	font-size: 1.1em;
+
+	width: 100%;
+	height: 2.5em;
+
+	border: 1px solid #dddddd;
+	border-radius: 0.2em;
+}
+
+main section article form button {
+	margin-top: 1.3em;
+
+	width: 100%;
+	height: 2.5em;
+
+	color: #ffffff;
+	background-color: #0f7562;
+	border-radius: 0.2em;
+}
+
+main section article form button:hover {
+	background-color: #dddddd;
+}
