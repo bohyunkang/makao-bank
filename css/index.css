@@ -1,0 +1,52 @@
+main section {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+
+	width: 65%;
+	height: 100%;
+	min-width: 1024px;
+	max-width: 1440px;
+
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+main section h2 {
+	font-weight: 800;
+	font-size: 2.5em;
+	line-height: 1.5em;
+
+	margin-bottom: 1.2em;
+	color: #ffffff;
+}
+
+main section .navigation-buttons {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+main section .navigation-buttons a {
+	width: 10em;
+	display: inline-block;
+	text-align: center;
+	padding: 1.5em 2.2em;
+	border-radius: 2.3em;
+	background-color: #0c5a4c;
+	box-shadow: 0px 5px 20px rgb(0 0 0 / 25%);
+	color: #ffffff;
+}
+
+main .background {
+	position: absolute;
+	top: 50%;
+	left: 47%;
+
+	width: 76vh;
+	height: 51vh;
+	transform: translate3d(0, -50%, 0);
+
+	background: url('../images/saving.png') no-repeat 0 50%;
+	background-size: contain;
+}
