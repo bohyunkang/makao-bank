@@ -1,89 +1,89 @@
 * {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 /* header 영역 */
 header {
-	height: 4em;
-	background-color: #0c5a4c;
+  height: 4em;
+  background-color: #0c5a4c;
 }
 
 header > div {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	width: 70%;
-	height: 100%;
-	min-width: 1024px;
+  width: 70%;
+  height: 100%;
+  min-width: 1024px;
 
-	margin: 0 auto;
-	padding: 0 1em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 header nav ul {
-	display: flex;
-	gap: 4em;
+  display: flex;
+  gap: 4em;
 }
 
 header h1 {
-	width: 38px;
-	height: 38px;
+  width: 38px;
+  height: 38px;
 
-	margin-right: 3.5em;
+  margin-right: 3.5em;
 }
 
 header h1 a {
-	display: block;
+  display: block;
 
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 
-	background: url('../images/logo.png') no-repeat 0 50%;
-	background-size: contain;
+  background: url('../images/logo.png') no-repeat 0 50%;
+  background-size: contain;
 
-	text-indent: -1000px;
+  text-indent: -1000px;
 }
 
 header ul li a {
-	font-weight: 300;
-	font-size: 0.9em;
-	color: #ffffff;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #ffffff;
 }
 
 /* main 페이지 백그라운드 깔리는 영역 */
 main {
-	position: relative;
+  position: relative;
 
-	width: 100vw;
-	height: calc(100vh - 4em);
-	min-width: 1024px;
+  width: 100vw;
+  height: calc(100vh - 4em);
+  min-width: 1024px;
 
-	background: url('../images/wave.svg') no-repeat 0 50%;
-	background-color: #0f7562;
-	background-size: cover;
+  background: url('../images/wave.svg') no-repeat 0 50%;
+  background-color: #0f7562;
+  background-size: cover;
 }
 
 /* 상세 페이지 백그라운드 깔리는 영역 */
 main .background-left {
-	position: absolute;
-	top: 34%;
-	left: 15%;
+  position: absolute;
+  top: 34%;
+  left: 15%;
 
-	width: 28vh;
-	height: 59vh;
+  width: 28vh;
+  height: 59vh;
 
-	background: url('../images/man.png') no-repeat 0 50%;
-	background-size: contain;
+  background: url('../images/man.png') no-repeat 0 50%;
+  background-size: contain;
 }
 
 main .background-right {
-	position: absolute;
-	top: 34%;
-	right: 5%;
+  position: absolute;
+  top: 34%;
+  right: 5%;
 
-	width: 44vh;
-	height: 60vh;
+  width: 44vh;
+  height: 60vh;
 
-	background: url('../images/woman.png') no-repeat 0 50%;
-	background-size: contain;
+  background: url('../images/woman.png') no-repeat 0 50%;
+  background-size: contain;
 }

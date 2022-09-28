@@ -1,58 +1,58 @@
 main section {
-	position: relative;
+  position: relative;
 
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	width: 65%;
-	height: 100%;
-	min-width: 1024px;
-	max-width: 1440px;
+  width: 65%;
+  height: 100%;
+  min-width: 1024px;
+  max-width: 1440px;
 
-	margin: 0 auto;
-	padding: 0 1em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 main section h2 {
-	font-weight: 800;
-	font-size: 2.5em;
-	line-height: 1.5em;
+  font-weight: 800;
+  font-size: 2.5em;
+  line-height: 1.5em;
 
-	margin-bottom: 1.2em;
-	color: #ffffff;
+  margin-bottom: 1.2em;
+  color: #ffffff;
 }
 
 main section .navigation-buttons {
-	display: flex;
-	justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 main section .navigation-buttons a {
-	display: inline-block;
+  display: inline-block;
 
-	padding: 1.5em 2.2em;
-	width: 10em;
+  padding: 1.5em 2.2em;
+  width: 10em;
 
-	text-align: center;
-	border-radius: 2.3em;
-	box-shadow: 0px 5px 20px rgb(0 0 0 / 25%);
-	background-color: #0c5a4c;
-	color: #ffffff;
+  text-align: center;
+  border-radius: 2.3em;
+  box-shadow: 0px 5px 20px rgb(0 0 0 / 25%);
+  background-color: #0c5a4c;
+  color: #ffffff;
 }
 
 main section .navigation-buttons a:hover {
-	background-color: #dddddd;
+  background-color: #dddddd;
 }
 
 main .background {
-	position: absolute;
-	top: 50%;
-	left: 47%;
+  position: absolute;
+  top: 50%;
+  left: 47%;
 
-	width: 76vh;
-	height: 51vh;
-	transform: translate3d(0, -50%, 0);
+  width: 76vh;
+  height: 51vh;
+  transform: translate3d(0, -50%, 0);
 
-	background: url('../images/saving.png') no-repeat 0 50%;
-	background-size: contain;
+  background: url('../images/saving.png') no-repeat 0 50%;
+  background-size: contain;
 }
